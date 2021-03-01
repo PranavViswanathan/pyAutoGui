@@ -10,7 +10,7 @@ for i in range(0, n):
     pyautogui.moveTo(960, 970) 
 
     click(960, 970)
-    pyautogui.write('lol')
+    pyautogui.write('Spam test ', i+1)
 
     pyautogui.moveTo(1790, 970)
     click(1790, 970)
