@@ -15,7 +15,7 @@ for i in range(0, n):
     pyautogui.moveTo(1790, 970)
     click(1790, 970)
 
-    pyautogui.moveTo(960, 540)
+    #pyautogui.moveTo(960, 540)    # Moves to center, not needed in spammer. Use to reduce time if wanted
 
 
 def click(x,y):
